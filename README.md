@@ -1,9 +1,18 @@
-# Desafio Final do Treinamento "If Black Then Code" - Gama Academy - IBM
+<div align="center">
 
-## **Hello Bank**
-<br> 
+# **Hello Bank**
 
-Construção de API de um banco fictício para gerenciar transações.
+</div>
+
+<div align="center">
+
+<img  src="./assets/img.png" width="400" />
+
+</div>
+
+Desafio Final do Treinamento "If Black Then Code" da Gama Academy em conjunto com a IBM.
+
+O desafio consiste na construção de uma API para um banco fictício que irá gerenciar transações entre contas e colocá-lo em nuvem (AWS).
 
 <br>
 
@@ -23,22 +32,34 @@ Construção de API de um banco fictício para gerenciar transações.
     |   |   |   |   └─📄Conta.java 
     |   |   |   |   └─📄Transacao.java   
     |   |   |   └─ 📁 repositories
-    |   |   |   |   └─📄ClienteRepository.java  
-    |   |   |   |   └─📄ContaRepository.java 
-    |   |   |   |   └─📄TransacaoRepository.java 
+    |   |   |   |   └─📄ClienteRepo.java  
+    |   |   |   |   └─📄ContaRepo.java 
+    |   |   |   |   └─📄TransacaoRepo.java 
     |   |   |   └─ 📁 Services
     |   |   |   |   └─📄ClienteService.java  
     |   |   |   |   └─📄ContaService.java 
     |   |   |   |   └─📄TransacaoService.java 
-    │   |   |   └─📄DesafioApplication.java    
+    │   |   |   └─📄HelloBankApplication.java    
     |   |   └─ 📁 resources   
     |   |   |   └─📄Application.properties
-    |   └─ 📁 test\java\com\helloBank\desafio
-    |   |   └─📄DesafioApplicationTests.java
-    ├──📁 target
-    ├─📄.gitignore      
-    ├─📄 pom.xml
+    |   └─ 📁 test\java\com\grupo01\helloBank
+    |   |   └─ 📁 controllers
+    |   |   |   └─📄ClientesControllerTests.java
+    |   |   └─ 📁 libs
+    |   |   |   └─📄httpRequests.java
+    |   |   └─ 📁 models
+    |   |   |   └─📄 ClientesTests.java
+    |   |   |   └─📄 ContasTests.java
+    |   |   |   └─📄 TransacoesTests.java
+    |   |   └─ 📁 repositories
+    |   |   |   └─📄 ClientesRepoTests.java
+    |   |   |   └─📄 ContasRepoTests.java
+    |   |   |   └─📄 TransacoesRepoTests.java
+    |   |   └─📄 HellobankApplicationTests.java
+    ├─📄.gitignore 
+    ├─📄 HelloBankDiagram.jpg      
     ├─📄 README.md  
+    ├─📄 pom.xml
     ├─📄 run.sh
     └─📄 start.sh
 ```
@@ -89,12 +110,53 @@ Construção de API de um banco fictício para gerenciar transações.
 </div>
 <br>
 
-## 👩🏿‍🤝‍👨🏾Equipe 01
+## 📚 Documentação da API
 <br>
+
+- Para ver como resultam as pesquisas, acesse o [Swagger]() ou o link da [AWS]()
+
+- A metodologia ágil utilizada para organização e monitoramento do processo do projeto foi feita pelo método Kanban e pode ser vista no [Trello](https://trello.com/b/dUaPJsSW/desafiofinal).
+
 
 <br>
 
-- [Bruno]()
+## 💻 Tecnologias Utilizadas
+<br>
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+<br>
+
+[![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+<br>
+
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+<br>
+
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+<br>
+
+![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
+<br>
+
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+<br>
+
+![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
+<br>
+
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
+<br>
+
+
+
+## 👩🏿‍🤝‍👨🏾 DESENVOLVIDO POR:
+
+### ATM group - Agility, Transparency and Management
+<br>
+
+- [Bruno Moura](https://www.linkedin.com/in/brunomoura22/)
+<br>
 
 - [Eliza Pimentel](https://www.linkedin.com/in/eliza-pimentel/) 
 <br>
