@@ -15,7 +15,7 @@ import br.com.grupo1.hellobank.models.Conta;
 @SpringBootTest
 public class ContasRepoTests {
   
-  @Autowired
+  /* @Autowired
   private ContaRepo repo;
 
   @Autowired
@@ -51,5 +51,5 @@ public class ContasRepoTests {
 
     var existe = repo.existsByNumeroConta(12345678);
     assertEquals(true, existe);
-  }
+  } */
 }
