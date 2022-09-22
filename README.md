@@ -115,7 +115,7 @@ O desafio consiste na construção de uma API para um banco fictício que irá g
 ## 📚 Documentação da API
 <br>
 
-- Para ver como resultam as pesquisas, acesse o [Swagger]() ou o link da [AWS]()
+- Para ver como resultam as pesquisas, acesse o **Swagger** através do link da [AWS](http://52.53.130.152:8082/swagger-ui/index.html)
 
 - A metodologia ágil utilizada para organização e monitoramento do processo do projeto foi feita pelo método Kanban e pode ser vista no [Trello](https://trello.com/b/dUaPJsSW/desafiofinal).
 
