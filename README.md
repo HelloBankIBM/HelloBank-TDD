@@ -1,3 +1,5 @@
+
+
 <div align="center">
 
 # **Hello Bank**
@@ -152,7 +154,11 @@ O desafio consiste na construção de uma API para um banco fictício que irá g
 
 ## 👩🏿‍🤝‍👨🏾 DESENVOLVIDO POR:
 
-### ATM group - Agility, Transparency and Management
+<div align="justify">
+
+<img  src="./assets/logo-.jpg" width="400" />
+
+</div>
 <br>
 
 - [Bruno Moura](https://www.linkedin.com/in/brunomoura22/)
