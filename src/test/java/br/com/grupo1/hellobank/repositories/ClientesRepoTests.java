@@ -14,7 +14,7 @@ import br.com.grupo1.hellobank.models.Cliente;
 @SpringBootTest
 public class ClientesRepoTests {
   
-  @Autowired
+  /* @Autowired
   private ClienteRepo repo;
 
   @BeforeEach
@@ -45,5 +45,5 @@ public class ClientesRepoTests {
 
     var existe = repo.existsByCpf("12345678900");
     assertEquals(true, existe);
-  }
+  } */
 }

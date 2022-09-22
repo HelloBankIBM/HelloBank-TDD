@@ -17,15 +17,15 @@ public class TransacoesRepoTests {
   @Autowired
   private TransacaoRepo repo;
 
-  @BeforeEach
-  public void setUp() {
-    repo.deleteAll();
-  }
+  //@BeforeEach
+  //public void setUp() {
+  //  repo.deleteAll();
+  //}
 
-  @Test
-  void validarFindAll() {
-    List<Transacao> transacoes = repo.findAll();
+  //@Test
+  //void validarFindAll() {
+  //  List<Transacao> transacoes = repo.findAll();
 
-    assertEquals(0, transacoes.size());
-  }
+  //  assertEquals(0, transacoes.size());
+  //}
 }
