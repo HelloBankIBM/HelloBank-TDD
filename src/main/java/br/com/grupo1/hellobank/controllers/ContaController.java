@@ -39,8 +39,12 @@ public class ContaController {
   }
 
   @GetMapping("/{id}")
-  public Conta buscarContaPorId(@PathVariable Long id) {
-    return contaService.buscarContaPorId(id);
+  public ResponseEntity<Object> buscarContaPorId(@PathVariable Long id) {
+    Conta conta = clienteService.buscarClientePorId(id).getConta();
+    if (conta.getId() == null) {
+      return ResponseEntity.badRequest().body("Conta não encontrada!");
+    }
+    return ResponseEntity.ok().body(conta);
   }
 
   @DeleteMapping("/{id}")
