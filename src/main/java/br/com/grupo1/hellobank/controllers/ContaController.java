@@ -3,7 +3,6 @@ package br.com.grupo1.hellobank.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -36,15 +35,6 @@ public class ContaController {
       return ResponseEntity.badRequest().body("Conta já cadastrada ou cliente não existe!");
     }
     return ResponseEntity.ok().body(contaService.cadastrarConta(conta));
-  }
-
-  @GetMapping("/{id}")
-  public ResponseEntity<Object> buscarContaPorId(@PathVariable Long id) {
-    Conta conta = clienteService.buscarClientePorId(id).getConta();
-    if (conta.getId() == null) {
-      return ResponseEntity.badRequest().body("Conta não encontrada!");
-    }
-    return ResponseEntity.ok().body(conta);
   }
 
   @DeleteMapping("/{id}")
